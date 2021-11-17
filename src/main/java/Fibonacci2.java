@@ -34,12 +34,11 @@ public class Fibonacci2 {
             fibValues.add(fibonacci(1));
         }
         if(n == 2){
-            fibValues.add(fibonacci(1));
+            fibValues = fibonacciList(1);
             fibValues.add(fibonacci(2));
         }
         if(n > 2){
-            fibValues.add(fibonacci(1));
-            fibValues.add(fibonacci(2));
+            fibValues = fibonacciList(2);
             for(int i=3 ; i <= n; i++){
                 result = fibonacci(i-1) + fibonacci(i-2);
                 fibValues.add(result);

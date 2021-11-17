@@ -17,11 +17,6 @@ class Fibonacci2Test {
     }
 
     @Test
-    void numberGreaterThanZero(){
-        assertEquals(2, f.fibonacci(2));
-    }
-
-    @Test
     void fibOfOne() {
         assertEquals(0, f.fibonacci(1));
     }

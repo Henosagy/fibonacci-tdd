@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Fibonacci2Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-17T14:53:21" hostname="DESKTOP-5NPG1UR" time="0.016">
+<testsuite name="Fibonacci2Test" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-11-17T15:17:46" hostname="DESKTOP-5NPG1UR" time="0.026">
   <properties/>
-  <testcase name="fibListOfGreaterThanTwo()" classname="Fibonacci2Test" time="0.016"/>
+  <testcase name="fibOfOne()" classname="Fibonacci2Test" time="0.015"/>
+  <testcase name="fibOfTwo()" classname="Fibonacci2Test" time="0.0"/>
+  <testcase name="fibListOfGreaterThanTwo()" classname="Fibonacci2Test" time="0.003"/>
+  <testcase name="fibListOfOne()" classname="Fibonacci2Test" time="0.001"/>
+  <testcase name="fibListOfTwo()" classname="Fibonacci2Test" time="0.001"/>
+  <testcase name="fibOfNumberGreaterThanTwo()" classname="Fibonacci2Test" time="0.001"/>
+  <testcase name="listNumberLessthanOrEqualToZero()" classname="Fibonacci2Test" time="0.002"/>
+  <testcase name="numberLessThanOrEqualToZero()" classname="Fibonacci2Test" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
